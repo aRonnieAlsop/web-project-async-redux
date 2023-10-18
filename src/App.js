@@ -1,12 +1,14 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import './App.css'
+import Image from './Image'
 
 function App() {
   return (
     <div className="App">
-      Async Redux Project
+      <h1>Here's Some Image</h1>
+      <Image />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
